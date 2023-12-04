@@ -1,6 +1,6 @@
 # 23_ML_RecommendationSystem
 
 
-##League of Legends Champ Recommendation
+## League of Legends Champ Recommendation
 
-*description of entire software
+* description of entire software
