@@ -89,7 +89,7 @@ win_rate_list_input = [0.60, 0.62, 0.55, 0.68, 0.55]
 most_common_roles = get_most_common_roles(champion_list_input, win_rate_list_input,champ_data)
 
 # Update user_preferences with most common roles
-user_preferences = [most_common_roles['주역할군'], most_common_roles['부역할군']]
+user_preferences = [most_common_roles['주역할군'], most_common_roles['포지션']]
 
 # Get recommendations
 recommendations = recommend_champion(user_preferences, champ_data, tfidf_vectorizer, tfidf_matrix, champion_list_input)
