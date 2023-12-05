@@ -197,7 +197,7 @@ if st.button('Recommend!'):
             for i in range(len(output_user)):
                 output_user_dic.append({output_user[i]: output_score_user[i]})
             most_common_roles = get_most_common_roles(champion_list_input, win_rate_list_input, champ_data)
-            user_preferences = [most_common_roles['주역할군'], most_common_roles['부역할군']]
+            user_preferences = [most_common_roles['주역할군'], most_common_roles['포지션']]
             recommendations = recommend_champion(user_preferences, champ_data, tfidf_vectorizer, tfidf_matrix,champion_list_input)
             temp_dic = recommendations.to_dict('list')
             for i in range(len(temp_dic['챔피언'])):
