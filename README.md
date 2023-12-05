@@ -14,4 +14,4 @@ Recommend characters that can be tried in consideration of the type of character
 * Deploying Using Streamlit
 
 
-When the name and user tag are entered, it searches fow.kr, receives the five most played champions and the win rate of games played with those champions as input, applies them to each user-based CF model and content-based filtering model, and makes recommendations. You are provided with a champion who does
+When receive your name and user tag, search for it on fow.kr and receive the five most-played champions and the winning percentage of the games played with them as inputs, apply it to each user-based cf model and content-based filtering model, and provide recommended champions.
