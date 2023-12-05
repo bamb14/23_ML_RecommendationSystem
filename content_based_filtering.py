@@ -44,7 +44,7 @@ def recommend_champion(user_preferences, champ_data, tfidf_vectorizer, tfidf_mat
                          champ_data.iloc[champ[0]]['챔피언'] not in input_champions]
 
     # Extract top 5 champions with scores and features
-    top_champions = similarity_scores[:10]
+    top_champions = similarity_scores[:5]
 
     # Get indices of recommended champions
     recommended_indices = [idx for idx, _ in top_champions]
